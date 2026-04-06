@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MY WEBSITE</title>
+        <style>
+            body
+            {
+                text-align: center;
+                margin:0;
+            }
+            body
+            {
+              background-color:#7542A2;
+            }
+            p
+            {
+                color:green;
+            }
+            h1
+            {
+                color:yellow;
+            }
+            h2
+            {
+                color:yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <marquee><h1><b>REGISTATION FORM</b></h2></marquee>
+        
+        <form action="form next.html" method="post">
+            
+          <p>Advertisement</p>
+          
+            <img src="logo.jpg" alt="My Image" width="370" height="200">
+            <h2><b>USER DETAIL</b></h2>
+            
+           <p>USERNAME
+           <input type="text" placeholder="Enter Your Name"required maxlength="5"> </p>
+            <p>password <input type="password" placeholder="Enter Password"required> </p>
+            <button>forget</button>
+            <p>EMAIL ID <input type="EMAIL ID" placeholder="Example@gmail.com"required> </p>
+            <p>Mobile Number
+            <input type="tel" Name="Mobile Number" placeholder="111-2222-333"required=""> </p>
+            
+            <h2> GENDER VERIFY</h2>
+            <input type="radio" name="Gender">male
+            <input type="radio" name="Gender">female
+            
+            <p></p>
+            <p></p>
+            <input type="submit" value="submit">
+
+
+            
+            
+        </form>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+<!doctype>
+<html>
+    <head>
+        <titel> Result</titel>
+       <style>
+           body
+           {
+               text-align-last="center";
+           }
+       </style>
+    </head>
+    <body>
+        <h1>FORM YOUR SUBMITED SUCCESSFULLY
+</h1>
+</body>
+</html>
