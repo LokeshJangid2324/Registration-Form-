@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MY WEBSITE</title>
+
+    <style>
+        body {
+            text-align: center;
+            margin: 0;
+            background-color: #7542A2;
+            font-family: Arial;
+        }
+
+        h1, h2 {
+            color: yellow;
+        }
+
+        p {
+            color: white;
+        }
+
+        
+        .container {
+            background: white;
+            width: 350px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px black;
+        }
+
+        /* Input Boxes */
+        .input-box {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 25px;   
+            border: 1px solid gray;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .input-box:focus {
+            border-color: purple;
+        }
+
+        
+        button, input[type="submit"] {
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: none;
+            background: purple;
+            color: white;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover, input[type="submit"]:hover {
+            background: darkviolet;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <marquee><h1>REGISTRATION FORM</h1></marquee>
+
+    <div class="container">
+
+        <p>Advertisement</p>
+        <img src="logo.jpg" width="300">
+
+        <h2>USER DETAIL</h2>
+
+        <form>
+
+            <input class="input-box" type="text" placeholder="Enter Your Name" required>
+
+            <input class="input-box" type="password" placeholder="Enter Password" required>
+
+            <button>Forget</button>
+
+            <input class="input-box" type="email" placeholder="example@gmail.com" required>
+
+            <input class="input-box" type="tel" placeholder="111-2222-333" required>
+
+            <h2>GENDER</h2>
+
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+
+            <br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </div>
+
+</body>
+</html>
