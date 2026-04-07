@@ -14,7 +14,7 @@
             }
             p
             {
-                color:green;
+                color:red;
             }
             h1
             {
@@ -24,6 +24,30 @@
             {
                 color:yellow;
             }
+
+.curv {
+    position : relative;
+    width : 400px;
+    height : 40px;
+    margin : auto;
+}
+
+.curv {
+    position : absolute;    
+    top : 20%;
+    font-size: 20px;
+    border : none;
+    background : none;
+    cursor : pointer;
+}
+
+.curv:first-child {
+    left : 10px;
+}
+
+.curv:last-child {
+    right : 10px;
+}
         </style>
     </head>
     <body>
@@ -36,15 +60,17 @@
             <img src="logo.jpg" alt="My Image" width="370" height="200">
             <h2><b>USER DETAIL</b></h2>
             
-           <p>USERNAME
+           <p>
+
+<div class="curv">
            <input type="text" placeholder="Enter Your Name"required maxlength="5"> </p>
-            <p>password <input type="password" placeholder="Enter Password"required> </p>
+            <p> <input type="password" placeholder="Enter Password"required> </p>
             <button>forget</button>
-            <p>EMAIL ID <input type="EMAIL ID" placeholder="Example@gmail.com"required> </p>
-            <p>Mobile Number
+            <p><input type="EMAIL ID" placeholder="Example@gmail.com"required> </p>
+            <p>
             <input type="tel" Name="Mobile Number" placeholder="111-2222-333"required=""> </p>
             
-            <h2> GENDER VERIFY</h2>
+            <h2> GENDER </h2>
             <input type="radio" name="Gender">male
             <input type="radio" name="Gender">female
             
@@ -54,7 +80,7 @@
 
 
             
-            
+            </div>
         </form>
     </body>
 </html>
